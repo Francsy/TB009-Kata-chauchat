@@ -81,3 +81,89 @@ Representaremos los 2 principales problemas:
     pium!
     pium!
     ```
+
+
+![logotipo de The Bridge](https://user-images.githubusercontent.com/27650532/77754601-e8365180-702b-11ea-8bed-5bc14a43f869.png "logotipo de The Bridge")
+
+# :shinto_shrine: - Chauchat #
+
+## Introduction ##
+
+![](comic-funcionamiento.gif)
+
+The Chauchat was the most produced machine gun during World War I. It was the first of its kind to be light enough for a single soldier to operate, even firing from the hip while on the move. It was used by the French and American armies, but the latter uncovered a series of flaws that also made it probably the worst machine gun in history.
+
+
+![](funcionamiento.gif)
+
+Its main problems were:
+
+1. The magazine was open on one side, and mud could block the mechanism, rendering it useless.
+
+2. It overheated, so soldiers were advised to fire only in short bursts.
+
+![](sonrisas-y-lagrimas.webp)
+
+## Requisitos ##
+
+- Variables
+
+- Conditionals
+
+- Loops
+
+- Operators
+
+- Arrays
+
+- Functions
+
+## Iterations ##
+
+Our exercise will be to create a virtual Chauchat that replicates its behavior.
+
+1. On one hand, you will need to create a variable magazine where you will store about 7 **_"pium!"_**
+
+2. The other element will be our **chauchat**, which "does things," and it's where we'll put the magazine to make it do things.
+
+    `chauchat(magazine)`
+
+    When we execute this code, we will see all the **_"pium!"_** of the magazine printed one after the other.
+
+    In case of 3 **_"pium!"_** in the magazine, we will see in console:
+
+    ```
+    pium!
+    pium!
+    pium!
+    ```
+
+-------------------------------------------------------------------------------
+
+_Premium zone:_
+
+We will represent the two main problems:
+
+3. Since the magazine was open, it was possible for it to get stuck if something entered, like a "twig".
+
+    Let´s say there is an 80% chance that it gets "stuck":
+
+    - If it gets stuck, there will be no shots, and it will only display a message: _"Illo, me he quedao pillá!"_
+
+    You can find out how to generate random numbers at this link: [Math.random()](https://www.w3schools.com/js/js_random.asp)
+
+4. To prevent it from overheating and getting stuck, every 3 shots, it will print a space:
+
+    ```
+    pium!
+    pium!
+    pium!
+
+    pium!
+    pium!
+    pium!
+
+    pium!
+    pium!
+    pium!
+    ```
